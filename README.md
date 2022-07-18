@@ -93,3 +93,10 @@ Here's a brief version of what you'll find in the data description file.
 78. YrSold: Year Sold
 79. SaleType: Type of sale
 80 SaleCondition: Condition of sale
+
+## Let's remove the non required columns from the dataset 
+
+LandContour, LotConfig,	LandSlope, Condition2, HouseStyle, OverallQual, YearRemodAdd, RoofMatl,
+Exterior1st, MasVnrType, MasVnrArea, ExterQual,	ExterCond, BsmtQual,BsmtCond,	BsmtExposure,	BsmtFinType1,	BsmtFinSF1,	BsmtFinType2,	BsmtFinSF2,	BsmtUnfSF, HeatingQC, 2ndFlrSF, LowQualFinSF,	GrLivArea,	BsmtFullBath,	BsmtHalfBath,	FullBath,	HalfBath,KitchenQual, Functional,Fireplaces, GarageYrBlt,	GarageFinish,	GarageCars,	GarageArea,	GarageQual,	GarageCond,	PavedDrive,	WoodDeckSF,	OpenPorchSF,	EnclosedPorch,	3SsnPorch,	ScreenPorch,	PoolArea,	MiscVal
+
+All the column are removed from the data frame as that have common values and common information represntation.
